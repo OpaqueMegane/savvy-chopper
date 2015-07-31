@@ -1,0 +1,14 @@
+{
+  "dependencies": {},
+  "description": "You and a partner must work together to steer your fruit-copter and put hats on the men.",
+  "happyFunTimes": {
+    "apiVersion": "1.10.0",
+    "category": "fruits and vegetables",
+    "gameId": "SavvyChopper2",
+    "gameType": "Unity3D",
+    "minPlayers": 4
+  },
+  "name": "Savvy Chopper",
+  "private": false,
+  "version": "0.0.12"
+}

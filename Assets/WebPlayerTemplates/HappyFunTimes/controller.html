@@ -1,0 +1,44 @@
+    <!-- this is inserted into index.html by build.py -->
+    
+    <head>
+<style>
+
+@font-face {
+    font-family: comic;
+    src: url(LDFComicSansBold.ttf);
+}
+
+
+body {
+    font-family: comic;
+}
+
+</style>
+</head>
+    
+<script type="text/javascript" src="buzz.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<!--<script type="text/javascript" src="three.min.js"></script>
+<script type="text/javascript" src="DeviceOrientationControls.js"></script>-->
+
+<img id="fruit_icon" style="position: fixed; width:45%; top: 40%; left: 50%; z-index: 9999; transform: translate(-50%, -50%); " />
+
+<img id="instructions" style="position: fixed; width:70%; top: 50%; left: 28%; z-index: 9999;"/>
+
+<div id="characterSkin">
+    
+
+
+</div>
+    <div id="gamearea" class="fixheight">
+        
+      <h1 id="gamestatus">status</h1>
+      <div id="display" class="hft-fullcenter fixheight">
+        <div id="input" class="hft-instruction hft-fullcenter"></div>
+      </div>
+      <div id="inputarea"  class="hft-fullcenter fixheight"></div>
+
+
+
+    </div>
+
